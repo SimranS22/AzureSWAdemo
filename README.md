@@ -61,7 +61,7 @@ With the copy created locally, you’re all set to start working on your code an
 
 4. The command palette opens at the top of the editor and prompts you to select a subscription name. Select your subscription and press <Enter>. 
 
-5. Next, name your application. Type SATechnicalOnboarding and press <Enter>. 
+5. Next, name your application. Type AzureSWAdemo and press <Enter>. 
 
 5. Select a region close to you. 
 - Note: Azure Static Web Apps globally distributes your static assets. The region you select determines where your optional staging environments and API function app will be located. 
