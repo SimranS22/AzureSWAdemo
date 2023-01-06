@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>globaltastes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ion icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <!-- font awesome 4 cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png" width="120px"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">RECIPES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Experience a new taste everyday with<span> globaltastes</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio ex doloremque blanditiis eaque. Laborum, et. Ut, praesentium! Totam doloribus aliquid corporis distinctio quibusdam libero a eveniet commodi eos eligendi ipsa blanditiis culpa tempore laudantium deserunt quo animi voluptas necessitatibus, quaerat similique. Cupiditate porro rem totam, accusantium similique.</p>
+                <br><p><i>All copyright of images used in this project goes to its respective owners.</i></p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="foods">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/img1.png" onclick="imgSlider('images/img1.png');changeColorCircle('#f7d279')" ></li>
+            <li><img src="images/img2.png" onclick="imgSlider('images/img2.png');changeColorCircle('#bde762')" ></li>
+            <li><img src="images/img5.png" onclick="imgSlider('images/img5.png');changeColorCircle('#F9C5DB')"></li>
+            <li><img src="images/img3.png" onclick="imgSlider('images/img3.png');changeColorCircle('#f8ae35')"></li>
+            <li><img src="images/img4.png" onclick="imgSlider('images/img4.png');changeColorCircle('#d1b095')"></li>
+        </ul>
+        <ul class="sci">
+                <li><a href="#"><i class="fab fa-facebook-f" ></i></a></li>  
+                <li><a href="#"><i class="fab fa-twitter" ></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube" ></i></a></li>
+            </div>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.foods').src = anything;
+        }
+        function changeColorCircle(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
