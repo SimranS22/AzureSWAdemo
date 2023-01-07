@@ -17,10 +17,6 @@ To get started, complete the following items if you haven’t already
 
 ## Section 1: Create a repository 
 
-**Why do this section?**
-
-Microsoft Cloud Advocates have created a template GitHub repository (or repo) specially for Microsoft Learn Student Ambassadors to use for this technical onboarding experience. When you append /generate to the end of the repo URL, you are telling GitHub that you want to generate a new repository, and use the provided repo as a template for the repo you generate. This template repository has the content and styling definitions that allow you to create a web application that can serve as your online resume. 
-
 This article uses a GitHub template repository to make it easy for you to get started. The template features a starter app used to deploy using Azure Static Web Apps. 
 
 1. Navigate to the following location to create a new repository: https://github.com/SimranS22/AzureSWAdemo/generate 
@@ -30,8 +26,6 @@ This article uses a GitHub template repository to make it easy for you to get st
 3. Select Create repository from template. 
 
 ## Section 2: Clone the repository 
-
-**Why do this section?**
 
 Previously you created a GitHub repository that housed the materials needed to create your web app.  Now you’ll create a local copy (or clone) so you can modify the code on your system. Cloning repos is an important part of a developer’s work. Imagine you’re a software engineer in a large company, and all the engineers at your company are working on the same codebase. You wouldn’t want everyone to make changes to the source code at the same time – so everyone clones the source code to their own local repository, makes and tests the necessary changes, and pushes those changes to the source code when they are ready. This makes for greater organizational collaboration. 
 
@@ -46,8 +40,6 @@ Previously you created a GitHub repository that housed the materials needed to c
 Note: Make note of the location where the repository is saved.  
 
 ## Section 3: Create a static web app 
-
-**Why do this section?**
 
 With the copy created locally, you’re all set to start working on your code and site. Now you’ll explore how to deploy your site to the cloud. You’ll use Azure Static Web Apps to host your site. A static web app (SWA) is a site built with JavaScript, HTML, CSS and potentially other tools, and SWAs are becoming increasingly common. Using Azure Static Web Apps will allow you to quickly post your site to the world. You can explore more Azure Tips and Tricks: Static Web Apps to learn more.  
 
@@ -84,8 +76,6 @@ If your build has failed you may see this in your Actions tab on GitHub:
  
  Then change line 30 to be /src instead of /
  ![Change app location](https://user-images.githubusercontent.com/32169182/175279576-fc87decb-99d0-41b7-8be3-ab9a56d9ca2a.png)
-
-
 
 ## Section 4: Customize Your Static Web App 
 
