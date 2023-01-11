@@ -1,6 +1,6 @@
 # Azure Static Web Apps
 
-This is a documentation on how to deploy Azure Static Web Apps.
+This is a documentation on how to deploy a Static Web App using Azure.
 
 
 ## Prerequisites 
