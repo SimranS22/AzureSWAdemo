@@ -79,8 +79,6 @@ If your build has failed you may see this in your Actions tab on GitHub:
 
 ## Step 4: Customize Your Static Web App 
 
-**Why do this section? **
-
 With your app deployed, you can turn your attention to customizing the app.
 
 We will now do a small customization step customize your webapp you can edit it in VS Code and push changes using GitHub Desktop  
