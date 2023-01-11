@@ -1,9 +1,9 @@
 # Azure Static Web Apps
 
-A demo on how to deploy Azure Static Web Apps
+This is a documentation on how to deploy Azure Static Web Apps.
 
 
-## Section 0: Prerequisites 
+## Prerequisites 
 
 To get started, complete the following items if you haven’t already 
 
@@ -15,17 +15,17 @@ To get started, complete the following items if you haven’t already
 
 - Download [GitHub Desktop](https://desktop.github.com/)  
 
-## Section 1: Create a repository 
+## Step 1: Create a repository 
 
 This article uses a GitHub template repository to make it easy for you to get started. The template features a starter app used to deploy using Azure Static Web Apps. 
 
-1. Navigate to the following location to create a new repository: https://github.com/SimranS22/AzureSWAdemo/generate 
+1. Navigate to the following location to create a new repository: [https://github.com/SimranS22/AzureSWAdemo/generate](https://github.com/SimranS22/AzureSWAdemo/generate) 
 
-2. Name your repository AzureSWAdemo. Note: Azure Static Web Apps requires at least one HTML file to create a web app. The repository you create in this step includes a single index.html file. 
+2. Name your repository *AzureSWAdemo*. Note: Azure Static Web Apps requires at least one HTML file to create a web app. The repository you create in this step includes a single index.html file. 
 
 3. Select Create repository from template. 
 
-## Section 2: Clone the repository 
+## Step 2: Clone the repository 
 
 Previously you created a GitHub repository that housed the materials needed to create your web app.  Now you’ll create a local copy (or clone) so you can modify the code on your system. Cloning repos is an important part of a developer’s work. Imagine you’re a software engineer in a large company, and all the engineers at your company are working on the same codebase. You wouldn’t want everyone to make changes to the source code at the same time – so everyone clones the source code to their own local repository, makes and tests the necessary changes, and pushes those changes to the source code when they are ready. This makes for greater organizational collaboration. 
 
@@ -39,7 +39,7 @@ Previously you created a GitHub repository that housed the materials needed to c
 
 Note: Make note of the location where the repository is saved.  
 
-## Section 3: Create a static web app 
+## Step 3: Create a Static Web App 
 
 With the copy created locally, you’re all set to start working on your code and site. Now you’ll explore how to deploy your site to the cloud. You’ll use Azure Static Web Apps to host your site. A static web app (SWA) is a site built with JavaScript, HTML, CSS and potentially other tools, and SWAs are becoming increasingly common. Using Azure Static Web Apps will allow you to quickly post your site to the world. You can explore more Azure Tips and Tricks: Static Web Apps to learn more.  
 
@@ -77,25 +77,25 @@ If your build has failed you may see this in your Actions tab on GitHub:
  Then change line 30 to be /src instead of /
  ![Change app location](https://user-images.githubusercontent.com/32169182/175279576-fc87decb-99d0-41b7-8be3-ab9a56d9ca2a.png)
 
-## Section 4: Customize Your Static Web App 
+## Step 4: Customize Your Static Web App 
 
 **Why do this section? **
 
-With your app deployed, let’s turn our attention to customizing the app.
+With your app deployed, you can turn your attention to customizing the app.
 
 We will now do a small customization step customize your webapp you can edit it in VS Code and push changes using GitHub Desktop  
 
 1. Navigate to the Explorer Tab in Visual Studio Code   
 
-2. Navigate to the “src” folder, and within it, the “index.html” file  
+2. Navigate to the “src” folder, and within it, any file such as "index.html"
 
-3. Find the “Your Name” Heading. Replace “Your Name” with your real name.   
+3. Make a change such as changing the word "lorem" to "HELLO" in the paragraph   
 
 4. Save your changes in VS Code   
 
-5. Navigate to GitHub Desktop and ensure that your Current Repository is your Ambassador-SWA-Pilot repo (GitHub Desktop should reflect your recent changes like below)  
+5. Navigate to GitHub Desktop and ensure that your Current Repository is your AzureSWAdemo repo (GitHub Desktop should reflect your recent changes like below)  
 
-6. In the bottom left of GitHub Desktop, give your changes a title (like “Added My Name” and add a description  
+6. In the bottom left of GitHub Desktop, give your changes a title (like “Changed text in paragraph” and add a description  
 
 7. Select “Commit to Main”  
 
@@ -105,26 +105,3 @@ We will now do a small customization step customize your webapp you can edit it 
 
 10. When the build is complete, refresh your app and the changes should be reflected  
 
- ## Optional: Creating an Azure Static Web App from an existing GitHub respository
- 
- Video demonstration: https://youtu.be/koA61KD6VzM
- 
- If you would like to create an Azure Static Web App from an existing GitHub respository on your GitHub account, you can also do that. 
- 
-1. Navigate to [Azure](https://portal.azure.com) and log in.
-2. Search for Static Web Apps and choose Static Web Apps
- ![Search for Azure Static Web Apps](https://user-images.githubusercontent.com/32169182/175283447-7d744c7d-020d-462b-8607-f6046b5bb245.png)
-3. Click 'Create'
- ![CREATE button](https://user-images.githubusercontent.com/32169182/175283630-d5e5bb35-53ba-4d2d-92d1-853d3f606371.png)
-4. Choose your Azure subscription (yours may be called Visual Studio Enterprise or Azure for Students), then click Create New for your resource group and give it a name, for example AzureStaticWebAppDemo
- ![Resource group name: Azure Static Web App Demo](https://user-images.githubusercontent.com/32169182/175283908-1295a754-5dec-4a9b-9f6f-3d6b6e3be03c.png)
-5. Give it a name, choose Free for the plan type and choose a location close to you
-![Name, plan, location and then Review + create](https://user-images.githubusercontent.com/32169182/175284149-935024bf-d909-4e45-9803-d1a17c6f49b0.png)
-6. Under deployment details choose GitHub, and 'Sign in with GitHub'
-7. Choose your organisation (your account), and your respository, you can leave Build presets blank, and then click 'Review + create'
-![Choose repository and organisation, blank bulid presets, 'Review + create'](https://user-images.githubusercontent.com/32169182/175284980-f1905c24-5052-45b8-81d8-7f859c841aae.png)
-8. Click 'Go to Resource' once it has finished deploying, and you should have a link which you can navigate to, to visit your website
- ![Go to resource and website link](https://user-images.githubusercontent.com/32169182/175285525-9474a473-35d1-4ed6-a4f0-40e409140d37.png)
- ![Live Azure Static Web App](https://user-images.githubusercontent.com/32169182/175285726-574904fd-ea8c-4c4a-8689-d21e7ba98904.png)
-9. Navigating to your respository you can see your action has been created for you, once it has finished running you can refresh the link you visited and it should be deployed
-![GitHub Action](https://user-images.githubusercontent.com/32169182/175285267-28494cce-9b10-427c-b1b5-857777b7d363.png)
