@@ -1,7 +1,10 @@
-# Azure Static Web Apps
+<div align="center">
+<h1>Azure Static Web Apps</h1>
+</div>
 <div align="center">
 <img width="878" alt="Event Poster" src="https://user-images.githubusercontent.com/103310345/218158083-6724960b-bab1-4b75-8b4a-8e0040e76f79.png">
 </div>
+
 
 As a _Microsoft Learn Student Ambassador_, I had the opportunity to conduct a Hands-on Session/workshop on 7th Jan,2023 on <br>"**Introduction to Azure Static Web Apps**".
 
