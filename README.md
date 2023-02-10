@@ -1,6 +1,29 @@
 # Azure Static Web Apps
+<div align="center">
+<img width="878" alt="Event Poster" src="https://user-images.githubusercontent.com/103310345/218158083-6724960b-bab1-4b75-8b4a-8e0040e76f79.png">
+</div>
 
-This is a documentation on how to deploy a Static Web App using Azure.
+As a _Microsoft Learn Student Ambassador_, I had the opportunity to conduct a Hands-on Session/workshop on 7th Jan,2023 on <br>"**Introduction to Azure Static Web Apps**".
+
+### Aim
+
+To help people understand how to deploy static web apps using Azure.
+
+### Workshop Details
+
+This workshop covers the following topics :
+1. Introduction to Static Web Apps
+2. Features of Static Web Apps
+3. Deploy a Static Web App - Hands-on session
+
+**Check out the workshop here :**
+
+<a href="https://stdntpartners-my.sharepoint.com/:v:/g/personal/desmond_dadzie_studentambassadors_com/EQfJMHbxwQxJl58K7z-LOyoBAkSd_wUbEoGngbI3W_qRiw?e=DnTakd">Introduction to Azure Static Web Apps</a>
+
+
+# Documentation
+
+A step-by-step documentation of how to deploy your very own static web app using Azure.
 
 
 ## Prerequisites 
