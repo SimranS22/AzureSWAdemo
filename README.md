@@ -92,12 +92,15 @@ With the copy created locally, you’re all set to start working on your code an
 8. To view the website in the browser, right-click on the project in the Static Web Apps extension, and select Browse Site. 
 
 If your build has failed you may see this in your Actions tab on GitHub:
+ 
  ![Failed build in GitHub actions](https://user-images.githubusercontent.com/32169182/175279158-50787c0d-2c28-4140-9724-0449023e8ae1.png)
  
  To fix this you can click the pencil icon beside the workflow run and click View workflow file
+ 
  ![View workflow file](https://user-images.githubusercontent.com/32169182/175279494-92985faa-a4aa-42b1-8f61-50cf5032816a.png)
  
  Then change line 30 to be /src instead of /
+ 
  ![Change app location](https://user-images.githubusercontent.com/32169182/175279576-fc87decb-99d0-41b7-8be3-ab9a56d9ca2a.png)
 
 ## Step 4: Customize Your Static Web App 
