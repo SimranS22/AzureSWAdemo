@@ -6,7 +6,7 @@
 </div>
 
 
-As a _Microsoft Learn Student Ambassador_, I had the opportunity to conduct a Hands-on Session/workshop on 7th Jan,2023 on <br>"**Introduction to Azure Static Web Apps**".
+As a _Microsoft Learn Student Ambassador_, I had the opportunity to conduct a Hands-on Session/workshop on 7th Jan,2023 on "**Introduction to Azure Static Web Apps**".
 
 ### Aim
 
